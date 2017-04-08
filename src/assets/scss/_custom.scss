@@ -34,7 +34,6 @@ h2 {
   font-size: 16px;
 }
 
-
 .clear-btn:hover {
   color: white;
   background: #00e0d0;
@@ -56,8 +55,12 @@ header::after {
 }
 
 .logo {
-  float: left;
-  margin: 0;
+  float: left;  
+}
+
+.logo img {
+  display: block;
+  padding-top: 6px;
 }
 
 .site-nav {
@@ -159,7 +162,7 @@ header::after {
   transform: translateY(-3px) rotate(-90deg);
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 960px) {
   .menu-toggle {
     display: none;
   }
@@ -225,3 +228,69 @@ hr {
   margin: 0 auto;
 }
 
+/*==== ABOUT STYLES ====*/
+
+.about-us {
+  text-align: center;
+  color: #413d4b;
+  padding: 2em 0 2em 0;
+}
+
+.about-us h2 {
+  margin: 2rem;
+}
+
+.about-us p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 1.1px;
+  width: 80%;
+  margin: 1em auto;
+}
+
+
+@media screen and (min-width: 1024px) {
+  
+  .about-us img {
+    margin-top: 3rem;
+  }
+  .about-content {
+    text-align: left;
+  }
+  .about-us h2 {
+    margin: 0;
+  }
+  .about-us p {
+    margin: 1em 0;
+  }
+  .about-us .clear-btn {
+    margin: 3em 0;
+  }
+}
+
+.about-video {
+  background: url(../img/city_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.play-btn img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.about-video p {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+}
