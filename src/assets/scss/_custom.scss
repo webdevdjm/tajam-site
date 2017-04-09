@@ -14,6 +14,7 @@ h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 900;
   font-size: 2em;
+  color: #413d4b;
 }
 
 .clear-btn {
@@ -293,4 +294,129 @@ hr {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 900;
+}
+
+/*==== EXPERTISE STYLES ====*/
+
+.expertise .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.expertise .col {
+  flex: 1;
+  padding: .6em;
+  margin: .6em;
+}
+
+.expertise {
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+.expertise h2 {
+  margin: 30px 0;
+}
+
+.expertise p.lead {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  padding-bottom: 0;
+}
+
+.expertise img {
+  height: 50px auto !important;
+}
+.expertise h3 {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  padding: 10px 0;
+  color: #413d4b;
+}
+
+.expertise p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0 auto;
+  width: 60%;
+  padding-bottom: 1%;
+  line-height: 1.5em;
+}
+
+.expertise i {
+  color: #18ccce;
+  font-size: 4em;
+  
+}
+@media screen and (min-width: 768px) {
+  .expertise .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .expertise p {
+    width: 60% !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+/* ==== TEAM SECTION ==== */
+
+.team {
+  background: url(../img/team_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 710px;
+  text-align: center;
+  padding: 4em 0 2em 0;
+}
+
+.team h2 {
+  color: $white;
+}
+
+.team p.lead {
+  color: $white;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  padding-top: 2em;
+  padding-bottom: 0;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.team img {
+  width: 100% auto;
+}
+
+.team h3 {
+  text-transform: uppercase;
+  color: $white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.team p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: .8em;
+}
+
+p.tagline {
+  text-transform: none;
+  font-size: 14px;
+  margin-top: 4rem;
+  padding-bottom: 0;
+}
+
+.card {
+  background: transparent;
+  border: 1px solid #7c7890;
 }
