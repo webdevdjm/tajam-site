@@ -74,6 +74,8 @@ $global-text-direction: ltr;
 $global-flexbox: false;
 $print-transparent-backgrounds: true;
 
+$teal: #00e0d0;
+
 @include add-foundation-colors;
 
 // 2. Breakpoints
