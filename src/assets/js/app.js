@@ -5,3 +5,11 @@ $(document).ready(function(){
   })
 });
 
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+
+$('.testimonials .bxslider').bxSlider({
+  pagerCustom: '#bx-pager'
+});
+
