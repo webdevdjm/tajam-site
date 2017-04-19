@@ -5,6 +5,17 @@ $(document).ready(function(){
   })
 });
 
+
+
+$(document).scroll(function(){
+    if($(this).scrollTop() > 200) {   
+        $('.sticky').css({"background-color":"#312953"});
+    } 
+    else {
+        $('header').css({"background":"transparent"});
+    }
+});
+
 $(document).ready(function(){
   $('.bxslider').bxSlider();
 });
